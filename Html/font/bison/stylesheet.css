@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bison';
+    src: url('Bison-Bold.eot');
+    src: url('Bison-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Bison-Bold.woff2') format('woff2'),
+        url('Bison-Bold.woff') format('woff'),
+        url('Bison-Bold.ttf') format('truetype'),
+        url('Bison-Bold.svg#Bison-Bold') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

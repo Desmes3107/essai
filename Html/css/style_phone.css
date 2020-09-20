@@ -1,0 +1,1968 @@
+
+
+
+
+
+	
+
+
+
+
+	
+
+@media all and (min-width: 1440px),(max-width: 1920px){
+
+	@font-face {
+	font-family: 'bahnschrift';
+	src: url('fonts/Bahnschrift.eot');
+	src: local('☺'), url('fonts/Bahnschrift.woff') format('woff'), url('fonts/Bahnschrift.ttf') format('truetype'), url('fonts/Bahnschrift.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+     }
+
+
+
+	@font-face {
+    font-family: 'Bison';
+    src: url('Bison-Bold.eot');
+    src: url('Bison-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Bison-Bold.woff2') format('woff2'),
+        url('Bison-Bold.woff') format('woff'),
+        url('Bison-Bold.ttf') format('truetype'),
+        url('Bison-Bold.svg#Bison-Bold') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+    }
+
+
+	body{
+
+	cursor: auto;
+	margin: 0 0 0 0;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+		background:  #353535;
+
+	
+	
+	
+	
+
+
+
+
+	}
+
+	html{
+
+		font-size: 62,5%;
+		 height: 100vh;
+		 width: 100%;
+		 overflow-x: hidden;
+		 overflow-y: hidden;
+
+
+	}
+
+	h1 
+	{
+		
+		font-family: Bison, Arial;
+		font-size: 54px;
+		font-weight: normal;
+		color: white;
+		opacity: 1;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin: 0;
+		z-index: 3;
+
+
+
+
+		
+		
+	
+		
+	
+
+		
+
+		
+		
+	}
+
+	.accueil{
+		animation: titlemain 2s;
+
+	}
+
+	@keyframes titlemain{
+   		0%   { opacity: 0;}
+
+   		50% { opacity: 0;}
+   		
+  		100% {opacity: 1;}
+    }
+
+	
+
+	h2
+	{
+		
+		font-family: bison,bahnschrift, Arial;
+		font-size: 42px;
+		font-weight: normal;
+		color: white;
+		text-shadow: 0px 1px 6px black;
+		margin: 0;
+		text-transform: uppercase;
+	
+		
+		
+		
+	
+		
+	}
+
+	h3
+	{
+		font-family: bison,Arial, sans-serif;
+		font-size: 2vw;
+		color: white;
+		margin: 0;
+		text-shadow: 0px 1px 2px black;
+		text-transform: uppercase;
+		
+		
+		
+
+	}
+
+
+	h4{
+		font-family: bashrift,Arial, sans-serif;
+		font-size: 24px;
+		color: white;
+		margin: 0;
+		
+		
+		
+	}
+
+	p{
+		display: flex;
+		flex-wrap: wrap;
+
+
+		color: #eaeaea;
+		font-family: bahnschrift,roboto_condensedlight,Arial, sans-serif;
+		font-size: 1vw;
+		line-height: 1rem;
+		
+		position: relative;
+		text-align: justify;
+
+		
+		
+	}
+
+	
+
+
+	a{
+		text-decoration: none;
+		color: white;
+	
+
+
+		font-family: Bison,roboto_condensedlight,Arial, sans-serif;
+		font-size: 2.3vw;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		z-index: 4;
+
+
+	}
+	
+	 a:visited{
+	  	
+	  	
+			
+
+	  	
+	}
+
+
+	a:focus 
+	{
+	  	
+	  
+	  		
+	  		
+	} 
+
+	a:hover 
+	{
+		
+			
+			
+	} 
+
+	a:active 
+	{
+	  
+	
+	  
+	}
+	
+
+
+	ul{
+			list-style-type: none;
+
+
+	}
+	
+	
+
+
+	#blason_accueil {
+	
+			
+		
+			width: 40vh;
+			height: auto;
+			
+			
+			margin-top: 0rem;
+			position: absolute;
+		left:50%;
+		top: 34%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+			
+	}
+
+	.ltca-3, .ltca-4{
+		stroke-dasharray: 1200;
+	stroke-dashoffset:1200;
+	animation: anime_tr 2s linear forwards 1.5s; 
+	
+
+	}
+
+	@keyframes anime_tr{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+
+
+	#rond{
+		stroke-dasharray: 1200;
+	stroke-dashoffset:1200;
+	animation: anime_rond 2s linear forwards;
+	
+
+	}
+
+	@keyframes anime_rond{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+	#ext{
+		stroke-dasharray: 163;
+		
+	
+	animation: anime_ext 4s ease-in-out ;
+	
+
+
+	}
+
+
+	@keyframes anime_ext {
+   		0%   {stroke-dashoffset:1500}
+
+   	
+   		90% { stroke-dashoffset:-100;}
+  		100% { stroke-dashoffset:0;}
+
+  	}
+
+	
+	#blason_club {
+	
+			
+		
+			width: 14.5vw;
+			height: 14.5vh;
+			
+			
+			margin-top: 0rem;
+			position: absolute;
+		left:50%;
+		top:37%;
+		transform: translate(-50%, -50%);	
+			
+		
+	}
+
+	.ltc-3_club, .ltc-4_club{
+		stroke-dasharray: 1200;
+	stroke-dashoffset:1200;
+	animation: anime_tr 1s linear forwards 1.5s; 
+	
+
+	}
+
+	@keyframes anime_tr{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+
+
+	#rond_club{
+		stroke-dasharray: 1200;
+	stroke-dashoffset:1200;
+	animation: anime_rond 1s linear forwards;
+	
+
+	}
+
+	@keyframes anime_rond{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+	#ext_club{
+		stroke-dasharray: 163;
+		
+	
+	animation: anime_ext 2s ease-in-out ;
+	
+
+
+	}
+
+
+	@keyframes anime_ext_club {
+   		0%   {stroke-dashoffset:1500}
+
+   	
+   		90% { stroke-dashoffset:-100;}
+  		100% { stroke-dashoffset:0;}
+
+  	}
+
+
+	
+
+
+	
+
+
+	
+
+	#asso{
+		
+		animation: anime_asso 5s ease-in-out ;
+		-webkit-animation: anime_asso 5s ease-in-out ;
+		
+	}
+
+	@keyframes anime_asso{
+   		0%   {opacity:0;}
+   		
+   		50% { opacity: 0;}
+   		
+  		100% {opacity: 1}
+    }
+			
+
+
+	.contenu{
+	background:#353535;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+
+	}
+
+
+	
+
+
+
+
+
+
+	.association  {
+		
+	position: absolute;
+	left: 50%;
+		top: 62%;
+		transform: translate(-50%, -50%);
+	width: 30%;
+	z-index: 1;	
+	text-shadow: 0px 3px 20px black;
+	animation: asso_opa 1.9s ease-in-out;
+		-webkit-animation: asso_opa 1.9s ease-in-out;
+	
+
+
+
+		
+		
+
+
+
+
+		}
+
+	
+	
+
+
+  	@keyframes asso_opa {
+   		0%   {opacity: 0}
+
+   		
+   		
+  		100% {opacity: 1;}
+
+  	}
+
+	.association::before {
+
+		
+		position:absolute;
+		content: "";
+		top: 113%;
+		left: 50%;
+		opacity: 0.8;
+		transform: translate(-50%, -50%);
+		background-color: #66dd62;
+		width: 95%;
+		height: 2px;
+		
+		z-index: 1;
+		animation: assobef 2s ease-in-out;
+
+
+  		
+
+
+
+  		
+  
+	}	
+
+
+	@keyframes assobef {
+   		0%   {width: 0;}
+
+   		
+   		
+  		100% {width: 95%;}
+
+  	}
+
+
+	
+
+
+
+	.foyer {
+		position: absolute;
+		left: 50%;
+		top: 74%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		text-shadow: 0px 3px 20px black;
+		-webkit-animation: foyer_opa 4.3s ease-in-out ;
+		animation: foyer_opa 6s ease-in-out ;
+		
+
+	}
+
+
+	@keyframes foyer_opa {
+   		0%   {opacity: 0;}
+
+   		50% { opacity: 0; }
+   		
+  		100% {opacity: 1;}
+
+  	}
+
+	
+
+
+	.button_accueil{
+		
+		
+		padding: 1rem;
+		
+		display: flex;
+		align-content: center;
+	
+		justify-content: center;
+		width: 22%;
+		margin-top: 8rem;
+	
+		border-radius:  1rem ;
+		
+		border: solid  1px;
+	
+		
+		
+		position: absolute;
+		left: 50%;
+		top: 73%;
+		transform: translate(-50%, -50%);
+		
+		z-index: 1;
+		overflow: hidden;
+		-webkit-animation: button_bord 3s ease-in-out 4s ;
+		animation: button_bord 3s ease-in-out 4s ;
+		box-shadow: 0px 3px 20px black;
+		
+
+	}
+
+	@keyframes button_accueil_bord {
+   		0%   {border: solid  1px;box-shadow: 0px 3px 20px black; }
+
+   		
+
+   		50% { border: solid  1px #66dd62; box-shadow: 0px 3px 20px #66dd62; }
+
+   		
+  		100% {border: solid  1px; box-shadow: 0px 3px 20px black;}
+
+  	}
+
+	
+
+
+	.button_accueil::before{
+		background: linear-gradient(#387c4f,#387c4f);
+		content: "";
+		width: 100%;
+		height: 0;
+		position:absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%)rotate(-30deg);
+		background-color:rgba(56, 124, 79, 0);
+		transition: all 0.6s ease;
+		z-index:-1;
+
+	
+	}
+
+	.button_accueil:hover::before{
+		height: 380%;
+
+	}
+
+
+	.button{
+		
+		
+		padding: 1rem;
+		
+		display: flex;
+		align-content: center;
+	
+		justify-content: center;
+		width: 22%;
+		margin-top: 20px;
+		margin-bottom: 40px;
+
+
+	
+		border-radius:  1rem ;
+		
+		border: solid  1px;
+	
+		
+		
+		position: relative;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		
+		z-index: 1;
+		overflow: hidden;
+		-webkit-animation: button_bord 3s ease-in-out 4s ;
+		animation: button_bord 3s ease-in-out 4s ;
+		box-shadow: 0px 3px 20px black;
+		
+
+	}
+
+	@keyframes button_bord {
+   		0%   {border: solid  1px;box-shadow: 0px 3px 20px black; }
+
+   		
+
+   		50% { border: solid  1px #66dd62; box-shadow: 0px 3px 20px #66dd62; }
+
+   		
+  		100% {border: solid  1px; box-shadow: 0px 3px 20px black;}
+
+  	}
+
+	
+
+
+	.button::before{
+		background: linear-gradient(#387c4f,#387c4f);
+		content: "";
+		width: 100%;
+		height: 0;
+		position:absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%)rotate(-30deg);
+		background-color:rgba(56, 124, 79, 0);
+		transition: all 0.6s ease;
+		z-index:-1;
+
+	
+	}
+
+	.button:hover::before{
+		height: 380%;
+
+	}
+
+
+
+
+
+	
+
+
+
+	.line6{
+		position: absolute;
+    	width: 1px;
+    	height: 85%;
+    	background-color:#66dd62;
+    	transform: rotate(90deg);
+    	top: 8%;
+    	left: 0%;
+    	animation: line6 4s ease-in-out;
+
+
+
+	}
+
+
+	@keyframes line6 {
+   		0%   {left: -100% ;}
+
+   		75% {left: 5%;}
+   		
+  		100% {left: 0%;}
+
+
+  	}
+
+	.line7{
+		position: absolute;
+    	width: 1px;
+    	height: 85%;
+    	background: #66dd62;
+    	
+    	top: 8%;
+    	right: 0%;
+    	transform: rotate(-90deg);
+    	animation: line7 4s ease-in-out;
+    	
+
+
+
+	}
+
+
+	@keyframes line7 {
+   		0%   {right: -100% ;}
+
+   		75% {right: 5%;}
+   		
+  		100% {right: 0%;}
+
+  	}
+
+
+	
+	header{
+		position: fixed;
+	
+		transition: 0.6s;background-color: rgb(66,67,67,1);
+
+		list-style: none;
+
+	font-size: 0.8rem;
+	width: 100%;
+	height: 8vh;
+	
+
+	padding-top: 5vh;
+	padding-bottom:7vh;
+	
+
+	
+	box-shadow: 0px 1px 15px black;
+	z-index: 5;
+	
+
+	animation: anim_head 1s ease ; 
+	-webkit-animation: anim_head 1s ;
+
+	}
+
+	@keyframes anim_head{
+   		0%  {height:0vh;}
+   		 
+   			
+  			  100%  {height:8vh;}
+    }
+
+	
+
+
+	nav {
+		left:50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		position: relative;
+
+
+
+
+	
+	
+	
+	
+	}
+
+	.navtop ul{
+		list-style: none;
+		text-align: right;
+		padding-left: 15px;
+		padding-right: 15px;
+		
+
+
+	}
+
+	.navtop ul li{
+		float: none;
+		display: inline-block;
+		text-transform: uppercase;
+		padding-left: 15px;
+		padding-right: 15px;
+		
+
+	}
+
+
+	.navtop ul li a{
+
+		text-shadow: 0px 1px 5px  black;
+
+	}
+
+	.navtop ul li a:hover{
+		border: solid 1px rgba(100,194,98,0.4);
+		
+		border-radius: 8px; 
+		width: 80%;
+		
+		box-shadow: 0px 1px 4px black;
+
+		transition: background-color border-radius box-shadow .6s ease-in-out;
+
+
+	}
+
+
+	 .active {
+		background-color:rgba(100,194,98,0.4);
+		
+		border-radius: 8px; 
+		width: 80%;
+		
+		box-shadow: 0px 1px 3px black;
+
+		
+
+
+	}
+
+	.navtop ul li:nth-child(1){
+		float: left;
+		position: relative;
+
+	}
+
+
+	.navtop ul li:nth-child(1)::before{
+
+		position: absolute;
+		content: "";
+		width: 1px;
+		height: 5vh;
+		background-color: #64c262;
+
+		left: 100%;
+
+
+	}
+
+
+
+
+	.navtop ul li:nth-child(2){
+		float: left;
+		position: relative;
+
+	}
+
+	.navtop ul li:nth-child(2)::before{
+
+		position: absolute;
+		content: "";
+		width: 1px;
+		height: 5vh;
+		background-color: #64c262;
+
+		left: 100%;
+
+
+
+	}
+
+
+
+	.navtop ul li:nth-child(3){
+		float: left;
+		position: relative;
+
+	}
+
+	.navtop ul li:nth-child(3)::before{
+
+		position: absolute;
+		content: "";
+		width: 1px;
+		height: 5vh;
+		background-color: #64c262;
+
+		left: 100%;
+
+
+	}
+
+	.navtop ul li:nth-child(4){
+		float: left;
+
+	}
+
+
+	.navtop ul li:nth-child(5){
+		
+		position: relative;
+
+	}
+
+	.navtop ul li:nth-child(5)::before{
+
+		position: absolute;
+		content: "";
+		width: 1px;
+		height: 5vh;
+		background-color: #64c262;
+
+		left: 100%;
+
+
+	}
+
+
+
+
+
+	.navtop ul li a{
+		
+		
+		
+		padding-right: 0.6rem;
+		padding-left: 0.6rem;
+
+
+		
+
+
+	}
+
+
+
+	.backnav{
+		background-color: #353535;
+		height: 26vh;
+		width: 100%;
+	}
+
+	.backcontenu1{
+		background: #353535;
+		height: 74vh;
+		z-index: 3;
+		position: relative;
+		display: block;
+		
+	}
+
+
+
+	.club {
+
+		text-shadow: 0px 3px 6px black;
+		position: relative;
+		animation: anime_backcontenu1 2s ease-in-out;
+		opacity: 100%;
+		animation: anime_club 1.5s ease-in-out ;
+		-webkit-animation: anime_club 1.5s ease-in-out ;
+		
+		
+
+	}
+
+	@keyframes anime_club{
+   		0%  {opacity:0  }
+
+   		50%  {opacity:0  }
+   		 
+   			
+  		100%  {opacity: 100%}
+    }
+
+
+
+
+	.club::before{
+
+		position: absolute;
+		content: "";
+		background: #64c262;
+		width: 60%;
+		height: 1px;
+		color: #64c262;
+		left: -30%;
+		top: 50%;
+		animation: anime_club_before 1.5s ease-in-out;
+		-webkit-animation: anime_club_before 1.5s ease-in-out;
+		
+
+	}
+
+	@keyframes anime_club_before{
+   		0%  {left:-130%;  }
+   		 
+   			
+  		100%  {left:-30%}
+    }
+
+
+	.club::after{
+
+		position: absolute;
+		content: "";
+		background: #64c262;
+		width: 60%;
+		height: 1px;
+		color: #64c262;
+		right: -30%;
+		top: 50%;
+		animation: anime_club_after 1.5s ease-in-out;
+		-webkit-animation: anime_club_after 1.5s ease-in-out;
+		
+		
+		
+
+	}
+
+	@keyframes anime_club_after{
+   		0%  {right: -130%;  }
+   		 
+   			
+  		100%  {right:-30%}
+    }
+
+
+	.infra {
+		position: relative;
+		left: 7vw;
+		top: 2%;
+		margin-top: 2vh;
+		margin-bottom: 2vh;
+		animation: anime_infra 3s ease-in-out ;
+		-webkit-animation: anime_infra 3s ease-in-out ;
+		
+		
+
+	}
+
+
+	@keyframes anime_infra{
+   		0%  {opacity:0  }
+
+   		50%  {opacity:0  }
+   		 
+   			
+  		100%  {opacity:100%}
+    }
+
+
+	.infra_block{
+
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: left;
+		flex-direction: column;
+		left: 10%;
+
+		top: 15%;
+
+
+
+
+	}
+
+	#line_infra{
+		position: absolute;
+		width: 60vw;
+		top: 25%;
+		left: -5%;
+		stroke-width: 12px;
+
+		stroke-dasharray: 1300;
+		stroke-dashoffset:1300;
+		animation: anime_ligne_infra 1s linear forwards 2s;
+		
+	}
+
+	
+
+	@keyframes anime_ligne_infra{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+	
+   		
+    
+
+
+	#terrain{
+		margin-bottom: 25px;
+		animation: anime_terrain 6s ease-in-out;
+		-webkit-animation: anime_terrain 6s ease-in-out ;
+
+		
+		
+	}
+
+
+
+	
+
+
+	@keyframes anime_terrain{
+   		0%  {opacity:0  }
+
+   		50%  {opacity:0  }
+   		 
+   			
+  		100%  {opacity:100%}
+    }
+
+
+
+
+	
+
+
+
+
+	#line_caract1{
+		position: absolute;
+		width: 20vw;
+		left: -10%;
+		top: 16%;
+		stroke-dasharray: 1200;
+		stroke-dashoffset:1200;
+		animation: anime_caract1 1.5s linear forwards 2.5s;
+		-webkit-animation: anime_caract1 1.5s linear forwards 2.5s;
+		
+	}
+
+	@keyframes anime_caract1{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+
+	
+	.matériaux{
+		margin-bottom: 25px;
+		position: relative;
+		animation: anime_matériaux 7s ease-in-out;
+		-webkit-animation: anime_matériaux 7s ease-in-out ;
+	}
+
+
+	@keyframes anime_matériaux{
+   		0%  {opacity:0  }
+
+   		50%  {opacity:0  }
+   		 
+   			
+  		100%  {opacity:100%}
+    }
+
+
+	#line_caract2{
+		position: absolute;
+		width: 20vw;
+		left: -10%;
+		top: 52%;
+		stroke-dasharray: 1200;
+		stroke-dashoffset:1200;
+		animation: anime_caract2 1.5s linear forwards 3.5s;
+		-webkit-animation: anime_caract2 1.5s linear forwards 3.5s;
+		
+
+	}
+
+	@keyframes anime_caract2{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+	
+
+	.infos{
+		position: relative;
+		animation: anime_infos 8s ease-in-out;
+		-webkit-animation: anime_infos 8s ease-in-out ;
+		
+	}
+
+
+	@keyframes anime_infos{
+   		0%  {opacity:0  }
+
+   		50%  {opacity:0  }
+   		 
+   			
+  		100%  {opacity:100%}
+    }
+
+
+	#line_caract3{
+		position: absolute;
+		width: 20vw;
+		left: -10%;
+		top: 88%;
+		stroke-dasharray: 1200;
+		stroke-dashoffset:1200;
+		animation: anime_caract3 1.5s linear forwards 4.5s;
+		-webkit-animation: anime_caract3 1.5s linear forwards 4.5s;
+		
+
+	}
+
+	@keyframes anime_caract3{
+		to {
+
+			stroke-dashoffset:0;
+		}
+	}
+
+	
+
+			
+	#slider {
+		
+		width: 50vw;
+		
+		
+		position: absolute;
+		left: 30%;
+		top: 0%;
+		 animation: anime_slider 1.5s ease;
+
+	
+		}
+
+		@keyframes anime_slider{
+   		0%  {top: 200%; }
+
+   		50%  {top: 200%  }
+   		 
+   			
+  		100%  {top: 0}
+    }
+
+		 
+		
+		
+
+	
+
+		#slider input[type=radio] {
+		   display: none;
+		}
+		#slider label {
+		   cursor:pointer;
+		   text-decoration: none;
+		}
+		#slides {
+		  
+		   
+		  
+		   position: relative;
+		   border: solid 1px #353535;
+		   border-radius: 5px;
+		   box-shadow: 0px 3px 6px black;
+		   z-index: 1;
+		   
+		}
+
+		
+
+		
+
+		#overflow {
+		   width: 100%;
+		   overflow: hidden;
+		}
+		#slide1:checked ~ #slides .inner {
+		   margin-left: 0;
+		}
+		#slide2:checked ~ #slides .inner {
+		   margin-left: -100%;
+		}
+		#slide3:checked ~ #slides .inner {
+		   margin-left: -200%;
+		}
+		#slide4:checked ~ #slides .inner {
+		   margin-left: -300%;
+		}
+		#slides .inner {
+		   transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+		   width: 400%;
+		   line-height: 0;
+		   height: 300px;
+		}
+		#slides .slide {
+		   width: 25%;
+		   float:left;
+		   display: flex;
+		   justify-content: center;
+		   align-items: center;
+		   height: 100%;
+		   
+		}
+
+		.slide-content1 img {
+			width: 100%;
+			height: auto;
+			
+			
+
+		   
+		}
+
+
+
+
+		.slide-content2 img {
+			width: 100%;
+			height: auto;
+
+		   
+		}
+
+		.slide-content3 img {
+			width: 100%;
+			height: auto;
+
+		   
+		}
+
+		.slide-content4 img {
+			width: 100%;
+			height: auto;
+
+		   
+		}
+
+		
+		#bullets {
+		   margin: 50px 0 0;
+		   text-align: center;
+		}
+		#bullets label {
+		   display: inline-block;
+		   width: 10px;
+		   height: 10px;
+		   border-radius:100%;
+		   border: solid 2px white;
+		   margin: 0 10px;
+		    transition: border 1s ease-in-out;
+		}
+		#slide1:checked ~ #bullets label:nth-child(1),
+		#slide2:checked ~ #bullets label:nth-child(2),
+		#slide3:checked ~ #bullets label:nth-child(3),
+		#slide4:checked ~ #bullets label:nth-child(4) {
+		  border: solid 2px #ff7300;
+		  transition: border .3s ease-in-out ;
+
+		}
+
+		#double_lines{
+			position: absolute;
+			width: 40vw;
+			height:70vh;
+			right: -10%;
+			top: 10%;
+			z-index: 3;
+
+		}
+
+
+
+		
+		
+
+	.backcontenu2{
+		width: 100vw;
+		height: auto;
+		
+		
+		
+		position: relative;
+		background:  #353535;
+		
+		
+		
+		
+	}
+
+
+	
+
+ 	#tarif_comité_all{
+
+ 		width: 100vw;
+ 		height: auto;
+ 		display: flex;
+ 		justify-content: center;
+ 		align-content: center;
+ 		margin: 0;
+
+ 	
+ 		
+ 		
+ 		
+ 		
+ 	}
+
+ 	
+
+	
+	
+		
+
+	.content_cours{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin-top: 20vh;
+
+
+	}
+
+	#way_or{
+		height: 18vh;
+		
+		position: absolute;
+		left: 50%;
+		top:60%;
+		transform: translate(-50%, -50%);
+		stroke-dasharray: 1300;
+		stroke-dashoffset:1300;
+		animation: anime_way_or 2s linear forwards 2s;
+	
+		
+	}
+
+	
+
+	@keyframes anime_way_or{
+		to {
+
+			stroke-dashoffset:0;
+		}
+
+		
+	}
+
+	
+
+
+
+
+
+
+	.button_cours{
+		
+		
+		padding: 1rem;
+		
+		display: flex;
+		align-content: center;
+	
+		justify-content: center;
+		width: 22%;
+		
+
+		margin-top: 20vh;
+	
+		border-radius:  1rem ;
+		
+		border: solid  1px;
+	
+		
+		
+		position: relative;
+		left: 50%;
+		top: 10%;
+		transform: translate(-50%, -50%);
+		
+		z-index: 1;
+		overflow: hidden;
+		-webkit-animation: button_bord 3s ease-in-out 2s ;
+		animation: button_bord 3s ease-in-out 2s ;
+		box-shadow: 0px 3px 20px black;
+		
+
+	}
+
+	@keyframes button_bord {
+   		0%   {border: solid  1px;box-shadow: 0px 3px 20px black; }
+
+   		
+
+   		50% { border: solid  1px #66dd62; box-shadow: 0px 3px 20px #66dd62; }
+
+   		
+  		100% {border: solid  1px; box-shadow: 0px 3px 20px black;}
+
+  	}
+
+	
+
+
+	.button_cours::before{
+		background: linear-gradient(#387c4f,#387c4f);
+		content: "";
+		width: 100%;
+		height: 0;
+		position:absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%)rotate(-30deg);
+		background-color:rgba(56, 124, 79, 0);
+		transition: all 0.6s ease;
+		z-index:-1;
+
+	
+	}
+
+	.button_cours:hover::before{
+		height: 380%;
+
+	}
+
+
+
+	.content_stages h2{
+		
+
+		display: flex;
+		justify-content: center;
+		
+		margin-top: 20vh;
+		
+
+	}
+
+	.backcontenu1_contacts{
+		background: #353535;
+			height: auto;
+			z-index: 3;
+			position: relative;
+			display: block;
+
+	}
+
+	.club_contacts {
+
+			text-shadow: 0px 3px 6px black;
+			position: relative;
+			animation: anime_backcontenu1 2s ease-in-out;
+			opacity: 100%;
+			animation: anime_club_contacts 1.5s ease-in-out ;
+			-webkit-animation: anime_club_contacts 1.5s ease-in-out ;
+			display: none;
+			
+			
+
+		}
+
+	@keyframes anime_club_contacts{
+   		0%  {opacity:0  }
+
+   		50%  {opacity:0  }
+   		 
+   			
+  		100%  {opacity: 100%}
+    }
+
+
+
+
+	.club_contacts::before{
+
+		position: absolute;
+		content: "";
+		background: #64c262;
+		width: 60%;
+		height: 1px;
+		color: #64c262;
+		left: -30%;
+		top: 50%;
+		animation: anime_club_contacts_before 1.5s ease-in-out;
+		-webkit-animation: anime_club_contacts_before 1.5s ease-in-out;
+		
+
+	}
+
+	@keyframes anime_club_contacts_before{
+   		0%  {left:-130%;  }
+   		 
+   			
+  		100%  {left:-30%}
+    }
+
+
+	.club_contacts::after{
+
+		position: absolute;
+		content: "";
+		background: #64c262;
+		width: 60%;
+		height: 1px;
+		color: #64c262;
+		right: -30%;
+		top: 50%;
+		animation: anime_club_contacts_after 1.5s ease-in-out;
+		-webkit-animation: anime_club_contacts_after 1.5s ease-in-out;
+		
+		
+		
+
+	}
+
+	@keyframes anime_club_contacts_after{
+   		0%  {right: -130%;  }
+   		 
+   			
+  		100%  {right:-30%}
+    }
+	
+
+	.background {
+	  display: flex;
+	  min-height: 100vh;
+	}
+
+	.container {
+	  flex: 0 1 700px;
+	  margin: auto;
+	  padding: 10px;
+	}
+
+
+	.screen-body {
+	  display: flex;
+	}
+
+	.screen-body-item {
+	  flex: 1;
+	  padding: 50px;
+	}
+
+	.screen-body-item.left {
+	  display: flex;
+	  flex-direction: column;
+	}
+
+	.app-title {
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  font-size: 26px;
+	  color: #ff7300;
+	}
+
+
+
+	.app-title:after {
+	  content: '';
+	  display: block;
+	  position: absolute;
+	  left: 0;
+	  bottom: -10px;
+	  width: 85%;
+	  height: 2px;
+	  background: #ff7300;
+	  animation:  anime_app-title_after 1s ease-in-out;
+	  -webkit-animation:  anime_app-title_after 1s ease-in-out;
+	  
+
+	}
+
+	@keyframes anime_app-title_after{
+	   		0%  {left:-130%;  }
+	   		 
+	   			
+	  		100%  {left:0%}
+	    }
+
+	.app-contact {
+	  margin-top: auto;
+	  font-size: 8px;
+	  color: #888;
+	}
+
+	.app-form-group {
+	  margin-bottom: 15px;
+	}
+
+	.app-form-group.message {
+	  margin-top: 40px;
+	}
+
+	.app-form-group.buttons {
+	  margin-bottom: 0;
+	  text-align: right;
+	}
+
+	.app-form-control {
+	  width: 100%;
+	  padding: 10px 0;
+	  background: none;
+	  border: none;
+	  border-bottom: 1px solid #666;
+	  color: #ddd;
+	  font-size: 14px;
+	  text-transform: uppercase;
+	  outline: none;
+	  transition: border-color .2s;
+	}
+
+	.app-form-control::placeholder {
+	  color: #666;
+	}
+
+	.app-form-control:focus {
+	  border-bottom-color: #ddd;
+	}
+
+	.app-form-button1 {
+	  background: none;
+	  border: none;
+	  color: white;
+	  font-size: 14px;
+	  cursor: pointer;
+	  outline: none;
+	  margin-right: 20px;
+	  margin-top: 30px;
+	padding: 10px 10px 10px 10px;
+			border-radius:  10px ;
+			
+			border: solid  1px;
+			box-shadow: 0px 3px 10px black;
+		
+			
+			
+			
+			
+			transform: translate(-50%, -50%);
+			
+			z-index: 1;
+			overflow: hidden;
+			-webkit-animation: app-form-button1 3s ease-in-out 2s ;
+			animation: app-form-button1 3s ease-in-out 2s ;
+			
+			
+	}
+
+
+
+	.app-form-button1::before{
+			background: linear-gradient(#387c4f,#387c4f);
+			content: "";
+			width: 100%;
+			height: 0;
+			position:absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%)rotate(-30deg);
+			background-color:rgba(56, 124, 79, 0);
+			transition: all 0.6s ease;
+			z-index:-1;
+
+		
+		}
+
+	.app-form-button1:hover::before{
+		height: 380%;
+
+
+
+	}
+
+
+	@keyframes app-form-button1 {
+   		0%   {border: solid  1px;box-shadow: 0px 3px 10px black; }
+
+   		
+
+   		50% { border: solid  1px #66dd62; box-shadow: 0px 3px 10px #66dd62; }
+
+   		
+  		100% {border: solid  1px; box-shadow: 0px 3px 10px black;}
+
+  	}
+
+
+
+	.app-form-button2 {
+	  background: none;
+	  border: none;
+	  color: white;
+	  font-size: 14px;
+	  cursor: pointer;
+	  outline: none;
+	  padding: 10px 10px 10px 10px;
+	  border-radius:  10px ;
+			
+			border: solid 1px;
+		
+			
+			
+			
+			
+			transform: translate(-50%, -50%);
+			
+			z-index: 1;
+			overflow: hidden;
+			 box-shadow: 0px 3px 10px black;
+			 -webkit-animation: app-form-button2 3s ease-in-out 2s ;
+			animation: app-form-button2 3s ease-in-out 2s ;
+			
+		
+	}
+
+
+	.app-form-button2::before{
+			background: linear-gradient(#387c4f,#387c4f);
+			content: "";
+			width: 100%;
+			height: 0;
+			position:absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%)rotate(-30deg);
+			background-color:rgba(56, 124, 79, 0);
+			transition: all 0.6s ease;
+			z-index:-1;
+
+		
+		}
+
+		.app-form-button2:hover::before{
+			height: 380%;
+
+	 
+
+		}
+
+		@keyframes app-form-button2 {
+	   		0%   {border: solid  1px;box-shadow: 0px 3px 10px black; }
+
+	   		
+
+	   		50% { border: solid  1px #66dd62; box-shadow: 0px 3px 10px #66dd62; }
+
+	   		
+	  		100% {border: solid  1px; box-shadow: 0px 3px 10px black;}
+
+	  	}
+
+
+
+	.mail{
+		margin-top: 40px;
+		
+		list-style:circle;
+	}
+
+	.phone{
+		position: relative;
+		margin-top: 40px;
+	}
+	.phone{
+
+		list-style:circle;
+		
+		
+	}
+
+
+
+
+
+
+
+
+	
+
+	
+	.footer_club{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 30vh;
+	}
+	
+
+
+	footer{
+		background: #424343;
+		width: 100%;
+		height: 30vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;
+	}
+	
+	
+
+	
+
+			
+
+
+		
+
+		.email{
+			margin-top: 15px;
+		}
+		
+		.copyright 
+		{
+			
+			margin-top: 50px;
+			position: relative;
+
+			
+		}
+
+		.copyright:before{
+			
+			position: absolute;
+			content: "";
+			width: 195%;
+			height: 3px;
+			background: #ff7300;
+			left: 0%;
+			top: -40%;
+			border-radius: 2px;
+
+		}
+		.copyright:after{
+			position: absolute;
+			content: "";
+			width: 195%;
+			height: 6px;
+			background: #ff7300;
+			right: 0%;
+			top: -70%;
+			border-radius: 2px;
+			
+		}
+
+		
+
+		
+
+
+
+
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Conv_Bahnschrift';
+	src: url('fonts/Bahnschrift.eot');
+	src: local('☺'), url('fonts/Bahnschrift.woff') format('woff'), url('fonts/Bahnschrift.ttf') format('truetype'), url('fonts/Bahnschrift.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
